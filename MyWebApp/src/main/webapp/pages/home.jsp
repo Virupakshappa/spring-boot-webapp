@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	Hey!!! ${nid} Welcome to home page........
+	Hey ${nid} !!! Welcome to home page........
 	
 </body>
 </html>
