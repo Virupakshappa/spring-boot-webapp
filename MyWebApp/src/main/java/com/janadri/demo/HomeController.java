@@ -12,6 +12,6 @@ public class HomeController {
 	public String homeMethod() {
 		System.out.println("Hey I am in home method");
 		
-		return "home.jsp";
+		return "home";
 	}
 }
