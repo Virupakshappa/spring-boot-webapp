@@ -13,10 +13,10 @@ public class HomeController {
 
 	@RequestMapping("home")    //calls this method whenever client hits /home endpoint
 //	@ResponseBody       //used to return data in string format(treats "home.jsp" as a string)
-	public ModelAndView homeMethod(@RequestParam("myName") String iname) {  //http://localhost:8080/home/?myName=Veeru
+	public ModelAndView homeMethod(Alien alien) {  //http://localhost:8080/home/?myName=Veeru
 		
 		ModelAndView mv = new ModelAndView();
-		mv.addObject("nid",iname);
+		mv.addObject("obj",alien);
 		mv.setViewName("home");
 		return mv;
 	}
